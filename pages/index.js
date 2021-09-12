@@ -94,7 +94,7 @@ export default function Home() {
           </a>
         </div>
       </main>
-      <footer className="flex items-center justify-center w-full h-24 border-t">
+      <footer className="flex items-center justify-center w-full h-24 border-t mt-6">
         <a
           className="flex items-center justify-center"
           href="#"
