@@ -8,18 +8,14 @@ export default function Home() {
         <title>newway</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
         <h1 className="text-6xl font-bold text-green-nw">
           newway
         </h1>
-
         <p className="mt-3 text-2xl">
           let&apos;s create an app together
         </p>
-
         <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
-
           <a
             target="_blank" rel="noreferrer"
             href="https://www.youtube.com/channel/UC7MJ2lA2I5RBfn1Ocz8BJxQ"
@@ -38,7 +34,6 @@ export default function Home() {
               subscribe on youtube
             </p>
           </a>
-
           <a
             target="_blank" rel="noreferrer"
             href="https://www.twitch.tv/newwayapp"
@@ -56,7 +51,6 @@ export default function Home() {
               follow on twitch
             </p>
           </a>
-
           <a
             target="_blank" rel="noreferrer"
             href="https://discord.gg/vqugZRf9ZN"
@@ -81,7 +75,6 @@ export default function Home() {
               join discord
             </p>
           </a>
-
           <a
             target="_blank" rel="noreferrer"
             href="https://github.com/newway-app"
@@ -99,10 +92,8 @@ export default function Home() {
               follow on github
             </p>
           </a>
-
         </div>
       </main>
-
       <footer className="flex items-center justify-center w-full h-24 border-t">
         <a
           className="flex items-center justify-center"
