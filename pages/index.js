@@ -15,11 +15,11 @@ export default function Home() {
         <p className="mt-3 text-2xl">
           let&apos;s create an app together
         </p>
-        <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
+        <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 mx-16">
           <a
             target="_blank" rel="noreferrer"
             href="https://www.youtube.com/channel/UC7MJ2lA2I5RBfn1Ocz8BJxQ"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-red-600 focus:text-blue-600"
+            className="p-6 mt-6 text-left border sm:w-96 w-72 rounded-xl hover:text-red-600 focus:text-blue-600"
           >
             <div className="flex gap-3 items-center mt-4">
               <svg height="32" viewBox="0 -77 512.00213 512" width="32" xmlns="http://www.w3.org/2000/svg">
@@ -37,7 +37,7 @@ export default function Home() {
           <a
             target="_blank" rel="noreferrer"
             href="https://www.twitch.tv/newwayapp"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-purple-700 focus:text-blue-600"
+            className="p-6 mt-6 text-left border sm:w-96 w-72 rounded-xl hover:text-purple-700 focus:text-blue-600"
           >
             <div className="flex gap-3 items-center mt-4">
               <svg className="stroke-current fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"
@@ -54,7 +54,7 @@ export default function Home() {
           <a
             target="_blank" rel="noreferrer"
             href="https://discord.gg/vqugZRf9ZN"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-indigo-500 focus:text-blue-600"
+            className="p-6 mt-6 text-left border sm:w-96 w-72 rounded-xl hover:text-indigo-500 focus:text-blue-600"
           >
             <div className="flex gap-3 items-center mt-4">
               <svg width="32" height="32" viewBox="0 0 71 55" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -78,7 +78,7 @@ export default function Home() {
           <a
             target="_blank" rel="noreferrer"
             href="https://github.com/newway-app"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-500 focus:text-blue-600"
+            className="p-6 mt-6 text-left border sm:w-96 w-72 rounded-xl hover:text-blue-500 focus:text-blue-600"
           >
             <div className="flex gap-3 items-center mt-4">
               <svg className="stroke-current fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"
